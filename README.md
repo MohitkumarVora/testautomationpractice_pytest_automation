@@ -1,6 +1,6 @@
 # testautomationpractice_pytest_automation
 
-steps for work flow: 
+Steps for work flow: 
 - Create new ticket in Issues section with Story description
 - In local create seperate branch for every issue using this format "{issue no}-{issue name using '-' instead of space in small case}"
 - After working on ticket raised a NEW PR using following git command 
