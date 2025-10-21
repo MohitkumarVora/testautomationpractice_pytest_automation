@@ -16,7 +16,7 @@ Steps for work flow:
 ---------------------------------------------------------------------------------------
 Language :- Python
 Web Automation Tool :- Playwright
-Framework :- Pytest
+Framework :- Pytest BDD
 Installed Dependencies :- 
     - pytest 
     - pytest-bdd 
