@@ -1,5 +1,7 @@
 # testautomationpractice_pytest_automation
 
+we are doing automation on the "https://testautomationpractice.blogspot.com/"
+
 Steps for work flow: 
 - Create new ticket in Issues section with Story description
 - In local create seperate branch for every issue using this format "{issue no}-{issue name using '-' instead of space in small case}"
