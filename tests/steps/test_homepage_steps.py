@@ -11,7 +11,7 @@ scenarios('../../features/homepage.feature')
 
 # --- GIVEN STEP ---
 
-@given("the user is on the practice automation home page")
+@given("the user is on the automation testing practice home page")
 def user_is_on_home_page(page: Page):
     """Navigate to the home page URL."""
     page.goto(HomeLocators.BASE_URL)

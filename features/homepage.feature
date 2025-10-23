@@ -6,6 +6,6 @@ Feature: Home page smoke checks
 
   @smoke
   Scenario: Verify that the Home page loads and shows header
-    Given the user is on the practice automation home page
+    Given the user is on the automation testing practice home page
     Then the page title should be "Automation Testing Practice"
     And the main header "Automation Testing Practice" should be visible
