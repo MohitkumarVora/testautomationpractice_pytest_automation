@@ -2,7 +2,6 @@
 import pytest
 from pytest_bdd import scenarios, given, when, then
 from pages.home_page import HomePage
-from helpers.logger import logger
 
 scenarios('../../features/homepage.feature')
 
@@ -13,7 +12,6 @@ def home(page, config):
 
 @given("I open the home page")
 def open_home(home):
-    logger.info("Navigating to home page")
     home.goto()
 
 @when("I check that the page loaded")
