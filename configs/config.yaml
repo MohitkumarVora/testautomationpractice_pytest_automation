@@ -1,0 +1,7 @@
+base_url: "https://testautomationpractice.blogspot.com"
+browser: "chromium"   # options: chromium, firefox, webkit
+headless: false
+viewport:
+  width: 1920
+  height: 1080
+timeout: 10000   # ms
