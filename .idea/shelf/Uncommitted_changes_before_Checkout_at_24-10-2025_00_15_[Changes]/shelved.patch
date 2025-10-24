@@ -1,0 +1,54 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"49d41abf-5530-4e7c-93b6-c994ccd382a7\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/config/__init__.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/config/config.properties.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/helpers/__init__.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/helpers/browser_manager.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/helpers/utils.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/locators/__init__.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/locators/login_page_locators.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pages/__init__.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pages/login_page.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/tests/__init__.py\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/tests/test_login.py\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;MohitkumarVora&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/MohitkumarVora/testautomationpractice_pytest_automation.git&quot;,\r\n    &quot;accountId&quot;: &quot;092ff1f0-229e-4878-b9a4-f223869b6451&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"34Mkdh4DNnRSySAhgA5AWQ7HCiJ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-1f77c24022e5-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.26830.99\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"49d41abf-5530-4e7c-93b6-c994ccd382a7\" name=\"Changes\" comment=\"\" />\r\n      <created>1761030917966</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1761030917966</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b6b3c96bcb4b753d483dee8fd17eb6e62916a99e)
++++ b/.idea/workspace.xml	(date 1761245021043)
+@@ -5,17 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="49d41abf-5530-4e7c-93b6-c994ccd382a7" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/config/config.properties.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/helpers/__init__.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/helpers/browser_manager.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/helpers/utils.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/locators/__init__.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/locators/login_page_locators.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pages/__init__.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/features/homepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/homepage.feature" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/tests/steps/test_homepage_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/steps/test_homepage_steps.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -45,15 +36,15 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "#4 on 2__refactor__code__and__add__terminal__log__feature",
++    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+   }
+-}</component>
++}]]></component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
