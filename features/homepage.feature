@@ -1,11 +1,8 @@
-# features/homepage.feature
-
 Feature: Home page smoke checks
-  As as visitor
+  As a visitor
   I want the home page to load and show important elements
 
-  @smoke
-  Scenario: Verify that the Home page loads and shows header
-    Given the user is on the automation testing practice home page
-    Then the page title should be "Automation Testing Practice"
-    And the main header "Automation Testing Practice" should be visible
+  Scenario: Home page loads and shows header
+    Given I open the home page
+    When I check that the page loaded
+    Then I should see the header text
