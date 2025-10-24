@@ -23,7 +23,6 @@ def verify_page_title(page: Page, expected_title):
     """Verifies the browser tab title."""
     expect(page).to_have_title(expected_title)
 
-
 @then(parsers.parse('the main header "{expected_header}" should be visible'))
 def verify_main_header(page: Page, expected_header):
     """Verifies the text and visibility of the main blog header using the imported locator."""
