@@ -1,0 +1,12 @@
+# Ignore PyCharm and IDE config files
+.idea/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Optional: Ignore virtual environment folders
+venv/
+env/
