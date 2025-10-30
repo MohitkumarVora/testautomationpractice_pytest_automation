@@ -1,5 +1,11 @@
 # testautomationpractice_pytest_automation
 
+Setup project for the first time then run command in IDE Terminal:
+
+pip install -r requirements.txt
+playwright install
+
+
 we are doing automation on the "https://testautomationpractice.blogspot.com/"
 
 Steps for work flow: 
