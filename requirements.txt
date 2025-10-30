@@ -1,4 +1,5 @@
-playwright
 pytest
+pytest-bdd
 pytest-playwright
-configparser
+playwright
+pyyaml
