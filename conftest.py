@@ -1,12 +1,13 @@
 # conftest.py
 import time
-
 import pytest
-import os
 import yaml
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
+
+# conftest.py or utils/decorators.py
+from pytest_bdd import given as _given, when as _when, then as _then, parsers
 
 
 CONFIG_PATH = Path(__file__).parent / "configs" / "config.yaml"
@@ -41,14 +42,21 @@ def page(browser_instance, config):
     yield page
     context.close()
 
-@pytest.hookimpl(tryfirst=True, hookwrapper=True)
-def pytest_runtest_makereport(item, call):
-    outcome = yield
-    rep = outcome.get_result()
-    if rep.when == "call" and rep.failed:
-        page_fixture = item.funcargs.get("page")  # our fixture name
-        if page_fixture:
-            screenshots_dir = Path("reports/screenshots")
-            screenshots_dir.mkdir(parents=True, exist_ok=True)
-            file = screenshots_dir / f"{item.name}_{int(time.time())}.png"
-            page_fixture.screenshot(path=str(file))
+def pytest_bdd_before_scenario(request, feature, scenario):
+    """Print the scenario name before its steps."""
+    print(f"\nScenario: {scenario.name}")
+
+def pytest_bdd_before_step(request, feature, scenario, step, step_func):
+    """Print each Gherkin step as it runs."""
+    print(f"{step.keyword} {step.name}")
+
+
+
+def given(step_text, *args, **kwargs):
+    return _given(parsers.parse(step_text), *args, **kwargs)
+
+def when(step_text, *args, **kwargs):
+    return _when(parsers.parse(step_text), *args, **kwargs)
+
+def then(step_text, *args, **kwargs):
+    return _then(parsers.parse(step_text), *args, **kwargs)

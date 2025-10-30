@@ -7,7 +7,7 @@ from playwright.sync_api import Page, expect
 from locators.home_locators import HomeLocators
 
 # Map all scenarios in the feature file to this steps file
-scenarios('../../features/homepage.feature')
+scenarios('homepage.feature')
 
 # --- GIVEN STEP ---
 

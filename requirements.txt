@@ -1,0 +1,5 @@
+pytest
+pytest-bdd
+pytest-playwright
+playwright
+pyyaml
