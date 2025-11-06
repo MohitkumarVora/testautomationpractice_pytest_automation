@@ -6,6 +6,9 @@ Setup project for the first time then run command in IDE Terminal:
 - playwright install
 - pytest (after above 2 command successfully install run the project with this command)
 
+For Gherkin feature and step file redirection Use below Extension(This exptension is specially build for gherkin Pytest-bdd framework):
+ - Gherkin pytest-bdd Navigator
+
 
 we are doing automation on the "https://testautomationpractice.blogspot.com/"
 

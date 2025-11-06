@@ -18,12 +18,12 @@ def user_is_on_home_page(page: Page):
 
 # --- THEN STEPS ---
 
-@then(parsers.parse('the page title should be "{expected_title}"'))
+@then(parsers.parse('the page title should be {expected_title}'))
 def verify_page_title(page: Page, expected_title):
     """Verifies the browser tab title."""
     expect(page).to_have_title(expected_title)
 
-@then(parsers.parse('the main header "{expected_header}" should be visible'))
+@then(parsers.parse('the main header {expected_header} should be visible'))
 def verify_main_header(page: Page, expected_header):
     """Verifies the text and visibility of the main blog header using the imported locator."""
 
