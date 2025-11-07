@@ -5,3 +5,8 @@ viewport:
   width: 1920
   height: 1080
 timeout: 10000   # ms
+
+Udemy_courses: "https://www.pavanonlinetrainings.com/p/udemy-courses.html"
+Online_Trainings: "https://www.pavanonlinetrainings.com/"
+Blog: "https://www.pavantestingtools.com/"
+playwrightpractice: "https://testautomationpractice.blogspot.com/p/playwrightpractice.html"

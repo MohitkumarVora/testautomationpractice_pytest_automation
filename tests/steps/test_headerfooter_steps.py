@@ -4,10 +4,10 @@ from pytest_bdd import given, when, then, scenarios, parsers
 from playwright.sync_api import Page, expect
 
 # IMPORTING THE LOCATORS DIRECTLY
-from locators.home_locators import HomeLocators
+from locators.headerfooter_locators import HomeLocators
 
 # Map all scenarios in the feature file to this steps file
-scenarios('homepage.feature')
+scenarios('headerfooter.feature')
 
 # --- GIVEN STEP ---
 
@@ -15,6 +15,7 @@ scenarios('homepage.feature')
 def user_is_on_home_page(page: Page):
     """Navigate to the home page URL."""
     page.goto(HomeLocators.BASE_URL)
+    page.wait_for_load_state("load")
 
 # --- THEN STEPS ---
 
